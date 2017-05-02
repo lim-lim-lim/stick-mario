@@ -1,0 +1,212 @@
+*{ padding: 0px; margin: 0px; }
+html{
+	width: 100%;
+	height: 100%;
+	font-family: "impact";
+}
+
+a{ text-decoration: none !important; }
+
+#world{
+	width: 100%;
+	height: 100%;
+	min-width: 360px;
+	min-height: 640px;
+	max-width: 550px;
+	max-height: 730px;
+	position: absolute;
+	overflow: hidden;
+	background: -webkit-linear-gradient( #0e75a7, #00b4f6 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #0e75a7, #00b4f6 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #0e75a7, #00b4f6 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #0e75a7, #00b4f6 ); /* Standard syntax */
+}
+
+
+.view{ 
+	width: 100%;
+	height: 100%;
+	min-width: 320px;
+	min-height: 640;
+	max-width: 600px;
+	max-height: 730px;
+	position: absolute;
+	outline: 1px solid #000;
+	overflow: hidden;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	min-width: 320px;
+	min-height: 640;
+	max-width: 600px;
+	max-height: 730px;
+}
+
+.scene{
+	display: none;
+}
+
+#start-view{
+	
+}
+
+#title{
+	position: absolute;
+	width: 100%;
+	top: 15%;
+	text-align: center;
+	font-size: 90px;
+	font-family: "arial black";
+	color:#000;
+	opacity: 0.7;
+	line-height: 80px;
+}
+#start-btn{
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	background-color: #000;
+	top: 55%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -75px;
+	position: absolute;
+	border-radius: 100px;
+	font-size: 75px;
+	color: #FFF;
+}
+#show-rank, #go-home{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #000;
+	top: 10px;
+	right: 10px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 25px;
+	color: #FFF;
+}
+#rank-list{
+	position: absolute;
+	width: 340px;
+	top: 15%;
+	left: 50%;
+	margin-left: -170px;
+	display: none;
+}
+#game-view{
+}
+
+#end-view{
+	background-color:rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+#bg-cloud{
+	width: 100%;
+	height: 270px;
+	position: absolute;
+	background-repeat: repeat-x;
+	background: url("../asset/cloud.png");
+}
+#bg-hills{
+	width: 100%;
+	height: 350px;
+	bottom: 0px;
+	position: absolute;
+	background-repeat: repeat-x;
+	background: url("../asset/hills.png");
+}
+#bg-bushes{
+	width: 100%;
+	height: 88px;
+	bottom: 0px;
+	position: absolute;
+	background-repeat: repeat-x;
+	background: url("../asset/bushes.png");
+}
+#score{
+	top: 10px;
+	right: 30px;
+	position: absolute;
+	font-size: 80px;
+	font-family: "impact";
+	color: #000;
+}
+#mario{
+	display: none;
+	width: 23px;
+	height: 35px;
+	bottom: 200px;
+	left:0px;
+	position: absolute;
+	background: url("../asset/mario_23x35.png");
+}
+#step-container{
+	width: 100%;
+	height: 200px;
+	bottom: 0px;
+	position: absolute;
+}
+#stick{
+	display: none;
+	width: 3px;
+	height: 100px;
+	bottom: 200px;
+	outline: 2px solid #000;
+	transform-origin:0% 100%;
+	-ms-transform-origin:0% 100%;
+	-webkit-transform-origin:0% 100%;
+	-moz-transform-origin:0% 100%;
+	-o-transform-origin:0% 100%;
+	position: absolute;
+	background-repeat: repeat;
+	background: url("../asset/brick.png");
+}
+#user-score{
+	width: 100%;
+	margin-top: 150px;
+	text-align: center;
+	font-size: 100px;
+	font-family: "impact";
+	color: #F90;
+}
+#regist-score{
+	display: inline-block;
+	width: 70%;
+	top: 50%;
+}
+
+#restart{
+	text-align: center;
+	top: 55%;
+	left: 50%;
+	width: 80px;
+	height: 80px;
+	margin-top: -40px;
+	margin-left: -40px;
+	line-height: 80px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 50px;
+	font-size: 30px;
+	color: #FFF;
+	position: absolute;
+}
+
+.step{
+	height: 200px;
+	position: absolute;
+	border-radius: 5px;
+	border: 2px solid #000;
+	background-color: LightSteelBlue;
+	/*background-repeat: no-repeat;
+	background-image: url("../asset/step.png" );*/
+}
+.input-group{
+	width: 100%;
+	top: 50%;
+}
