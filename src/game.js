@@ -497,10 +497,10 @@
 	}); 
 
 	mvvm.addModel( "game-model", function( vmFinder ){
-
+		var host = 'http://www.limlimlim.com/game/stick-mario/api/'
 		this.getRank = function(){
 			$.ajax( { 
-				url:"php/get-rank.php",
+				url: host + "rank.php",
 				method:"GET",
 				dataType:"json",
 				success:function( data ){
@@ -515,7 +515,7 @@
 
 		this.regRank = function( data ){
 			$.ajax( { 
-				url:"php/reg-rank.php",
+				url: host + "reg-rank.php",
 				method:"POST",
 				data:data,
 				success:function( data ){
@@ -528,7 +528,7 @@
 
 		this.entry10 = function( data ){
 			$.ajax( { 
-				url:"php/entry10.php",
+				url: host + "/entry10.php",
 				method:"GET",
 				data:data,
 				success:function( data ){
@@ -546,5 +546,4 @@
 	scene.addScene( "game", gameScene );
 	scene.addScene( "end", endScene );
 	scene.setScene( "ready" );
-	// scene.setScene( "end" );
 }());
