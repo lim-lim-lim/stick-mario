@@ -110,7 +110,7 @@ a{ text-decoration: none !important; }
 	height: 270px;
 	position: absolute;
 	background-repeat: repeat-x;
-	background: url("../asset/cloud.png");
+	background: url("../img/cloud.png");
 }
 #bg-hills{
 	width: 100%;
@@ -118,7 +118,7 @@ a{ text-decoration: none !important; }
 	bottom: 0px;
 	position: absolute;
 	background-repeat: repeat-x;
-	background: url("../asset/hills.png");
+	background: url("../img/hills.png");
 }
 #bg-bushes{
 	width: 100%;
@@ -126,7 +126,7 @@ a{ text-decoration: none !important; }
 	bottom: 0px;
 	position: absolute;
 	background-repeat: repeat-x;
-	background: url("../asset/bushes.png");
+	background: url("../img/bushes.png");
 }
 #score{
 	top: 30px;
@@ -150,7 +150,7 @@ a{ text-decoration: none !important; }
 	bottom: 200px;
 	left:0px;
 	position: absolute;
-	background: url("../asset/mario_23x35.png");
+	background: url("../img/mario_23x35.png");
 }
 #step-container{
 	width: 100%;
@@ -171,7 +171,7 @@ a{ text-decoration: none !important; }
 	-o-transform-origin:0% 100%;
 	position: absolute;
 	background-repeat: repeat;
-	background: url("../asset/brick.png");
+	background: url("../img/brick.png");
 }
 #user-score{
 	width: 100%;
@@ -210,7 +210,7 @@ a{ text-decoration: none !important; }
 	border: 2px solid #000;
 	background-color: LightSteelBlue;
 	/*background-repeat: no-repeat;
-	background-image: url("../asset/step.png" );*/
+	background-image: url("../img/step.png" );*/
 }
 .input-group{
 	width: 100%;
