@@ -546,5 +546,4 @@
 	scene.addScene( "game", gameScene );
 	scene.addScene( "end", endScene );
 	scene.setScene( "ready" );
-	// scene.setScene( "end" );
 }());
