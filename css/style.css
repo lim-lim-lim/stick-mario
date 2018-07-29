@@ -3,6 +3,7 @@ html{
 	width: 100%;
 	height: 100%;
 	font-family: "impact";
+	background-color: #222; 
 }
 
 a{ text-decoration: none !important; }
@@ -11,6 +12,10 @@ a{ text-decoration: none !important; }
 	width: 550px;
 	height: 730px;
 	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -225px;
+	margin-top: -365px;
 	overflow: hidden;
 	background: -webkit-linear-gradient( #0e75a7, #00b4f6 ); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient( #0e75a7, #00b4f6 ); /* For Opera 11.1 to 12.0 */
@@ -94,11 +99,9 @@ a{ text-decoration: none !important; }
 	margin-left: -170px;
 	display: none;
 }
-#game-view{
-}
 
 #end-view{
-	background-color:rgba(0, 0, 0, 0.5);
+	background-color:rgba(0, 0, 0, 0.8);
 	text-align: center;
 }
 
@@ -126,12 +129,19 @@ a{ text-decoration: none !important; }
 	background: url("../asset/bushes.png");
 }
 #score{
-	top: 10px;
-	right: 30px;
+	top: 30px;
+	left: 50%;
+	margin-left: -60px;
 	position: absolute;
-	font-size: 80px;
+	font-size: 60px;
 	font-family: "impact";
-	color: #000;
+	text-align: center;
+	line-height: 115px;
+	color: #FFF;
+	width: 120px;
+	height: 120px;
+	background-color: #000000aa;
+	border-radius: 30px;
 }
 #mario{
 	display: none;
@@ -169,7 +179,7 @@ a{ text-decoration: none !important; }
 	text-align: center;
 	font-size: 100px;
 	font-family: "impact";
-	color: #F90;
+	color: #fff;
 }
 #regist-score{
 	display: inline-block;
