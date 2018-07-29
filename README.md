@@ -1,7 +1,7 @@
 # STICK MARIO
 
-게임실행 : http://www.limlimlim.com/game/stick-mario/
-### 로컬실행
+Live Demo : http://www.limlimlim.com/game/stick-mario/
+## 로컬실행
 ```
 npm install
 npm run start
