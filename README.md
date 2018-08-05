@@ -1,6 +1,8 @@
 # STICK MARIO
 
-Live Demo : http://www.limlimlim.com/game/stick-mario/
+- Live Demo : http://www.limlimlim.com/game/stick-mario/
+- #Javascript #jQuery #HTML #CSS
+
 ## 로컬실행
 ```
 npm install
